@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a Datbase driven Portfolio website Builder implemented using HTML, CSS, PHP, SQL. 
+This is a Database driven Portfolio website Builder implemented using HTML, CSS, PHP, SQL. 
 
 The website fetches user data from the database and displays on the website. Lowers website's content customization time significantly.
 
