@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Aug 24, 2023 at 10:48 PM
+-- Generation Time: Aug 31, 2023 at 05:02 PM
 -- Server version: 5.7.39
 -- PHP Version: 7.4.33
 
@@ -38,7 +38,7 @@ CREATE TABLE `about_me` (
 
 INSERT INTO `about_me` (`c1`, `c2`) VALUES
 ('background', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'),
-('skills', 'skill1,skill2,skill3,skill4');
+('skills', 'skill1,skill2,skill3,skill4,skill5');
 
 -- --------------------------------------------------------
 
@@ -122,7 +122,7 @@ CREATE TABLE `projects` (
 --
 
 INSERT INTO `projects` (`project_index`, `project_title`, `project_description`, `project_links`) VALUES
-(1, 'Project 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.', 'link1;link2'),
+(1, 'Project 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.', 'Technical Paper,https://www.linkedin.com/;Github,https://github.com/'),
 (2, 'Project 2', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.', 'link1;link2'),
 (3, 'Project 3', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.', 'link1;link2'),
 (4, 'Project 4', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam id.', 'link1;link2'),

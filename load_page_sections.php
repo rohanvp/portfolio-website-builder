@@ -189,19 +189,11 @@ function LoadProjectSection($conn,$user_name,$github_link)
 
                     <?php
                       for ($i=0; $i < count($links_split); $i++) { 
+                              $links_split_2=explode(",", $links_split[$i]);
+                              
                              ?>
 
-                        <a href="<?php 
-                        if($i==0) echo $links_split[0];
-                        elseif($i==1) echo $links_split[1];
-                        
-                        ?>" class="card-link"><?php
-                        
-                        if($i==0) echo "Github";
-                        elseif($i==1) echo "Technical Paper";
-
-                        ?>
-                        </a>
+                        <a href="<?php echo $links_split_2[1];?>" class="card-link"><?php echo $links_split_2[0];?></a>
               
                         <?php
                                   }
